@@ -1,5 +1,3 @@
 # [MightyJoeTech](http://mightyjoetech.com/)
 
 Portfolio displaying responsive front-end development projects inclduing landing pages, blogs, and games.
-
-<a href="http://mightyjoetech.com/"><img src="https://lh3.googleusercontent.com/TKErQ8vRmWSamj2KHmbGmRyp_aUDK0alFDtGhy_AReDomyxNcoC-IWdz4pVmkVgnAZO6T3ZJGfWY8l_UMuUMRDIzjodikE83TyGe4vRPY2in_yvKL7_WFgAsSPTqOMzESD3dyYVhgZ-Ah6MXXA8TO2k0NeNaQIx-xUo50T0qjVh3gfL4pmdOfbfC9VTvMcbKj2bMEdc_J18r3WDiMy19QvD61flyvg7LR48J23u4onAzsfijeMtaijxf4QZbYHADMhN7KFS2I8dNZ2Ra5RfHDqzW_pO8occ47fXY5uoQegciazWRYczxn_O2WdSSzTIqFxNagAM6Wl5yrleW7ZpR5TwlKOqRGdcazXQT2aINGEHhj41ax4QAwL9kcIzK7vU-1mE1KqKAH1Xzo0fGKgISJt0XKV1qCxEoBfU-k2bAwHl8oRw_HXw2qur3F5JhN-YDqea6M6ObwrrL6PJnBf8dDALOybppdG4aoAoVX8-Ua--ooSi9B41rrlvDdKqh8WiD_FWC_FcNfntxyBZdmjDxWI9zuFGOfkQrRZcwZ8eNlR9f2mgGStX8W_Sui-Ucf0NlHvDZ2FSZccWaUIhB4u6aMnL8hG3Y5_PRV0QH6hg=w2849-h1602-no" alt="MightyJoeTech.com"></a>
