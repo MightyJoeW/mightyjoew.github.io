@@ -6,6 +6,10 @@
 }
 
 @media (max-width: 768px) {
+  .social-links-bottom {
+    text-align: center;
+    margin-top: 4%;
+  }
   .about-section {
     display: flex;
     flex-direction: column;
@@ -349,6 +353,14 @@ header .header-content .header-content-inner p {
 @media (min-width: 768px) {
   .social-links {
     margin: 0 10px;
+  }
+  .social-links-bottom {
+    text-align: center;
+    margin-top: 4%;
+  }
+
+  .icon-img {
+    padding: 0 1.5%;
   }
   .portfolio-box
     .portfolio-box-caption
