@@ -261,6 +261,13 @@ header .header-content .header-content-inner p {
   font-size: 4rem;
   text-align: center;
 }
+.section-heading-more {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+}
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
