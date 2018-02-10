@@ -60,6 +60,12 @@ img {
 }
 
 @media (max-width: 768px) {
+  .portfolio-img-container {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-tops__img {
+    height: 60%;
+  }
   .social-links-bottom {
     text-align: center;
     margin-top: 4%;
