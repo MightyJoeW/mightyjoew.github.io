@@ -2,6 +2,10 @@ img {
   padding: 3% 5% 3% 5%;
 }
 
+.portfolio-padding {
+  background: #ebebeb;
+}
+
 .portfolio-tops {
   background: #fff;
 }
@@ -9,9 +13,6 @@ img {
 .portfolio-captions {
   text-align: center;
   background: #b3b3b3;
-
-  margin-top: 10%;
-  padding: 2% 0;
   font-style: italic;
 }
 
@@ -24,20 +25,26 @@ img {
 }
 
 .portfolio-img-container {
-  display: flex;
-  flex-wrap: wrap;
   padding: 0 4px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .portfolio-columns {
-  flex: 33%;
-  max-width: 33%;
   padding: 0 8px;
 }
 
 .portfolio-columns img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+.about-section {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 2fr 1fr;
 }
 
 @media (max-width: 800px) {
@@ -53,39 +60,46 @@ img {
 
 .portfolio-gallery {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   margin: 0 10%;
 }
 
 @media (max-width: 768px) {
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+
+  .about-photo {
+    order: 1;
+    display: none;
+  }
+
+  .about-text {
+    order: 2;
+    margin: 20px;
+  }
+
+  .about-photo img {
+    width: 200px;
+    height: 280px;
+  }
+
+  .portfolio-img-container {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-tops__img {
+    height: 60%;
+  }
   .social-links-bottom {
     text-align: center;
     margin-top: 4%;
   }
-  .about-section {
-    display: flex;
-    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .about-photo {
+    /* box-shadow: 6px 6px 17px 2px rgba(0, 0, 0, 0.4); */
   }
-
-  .about-photo img {
-    height: 150px;
-    width: 100px;
-  }
-}
-
-.about-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.about-text {
-  margin: 0 10%;
-  width: 50%;
-}
-
-.about-photo {
-  box-shadow: 6px 6px 17px 2px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-default,
@@ -149,7 +163,7 @@ p {
 }
 .text-faded {
   color: #2d2d2d;
-  text-align: left;
+  text-align: justify;
   padding: 0 3%;
 }
 section {
@@ -158,9 +172,7 @@ section {
 aside {
   padding: 50px 0;
 }
-.portfolio-padding {
-  background: #ebebeb;
-}
+
 .navbar-default {
   background-color: #fff;
   border-color: rgba(34, 34, 34, 0.05);
