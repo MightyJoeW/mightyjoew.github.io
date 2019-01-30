@@ -11,9 +11,10 @@ img {
 }
 
 .portfolio-captions {
-  text-align: center;
-  background: #b3b3b3;
+  background: #e3e3e3;
   font-style: italic;
+  padding: 5px;
+  text-align: center;
 }
 
 .portfolio-p {
