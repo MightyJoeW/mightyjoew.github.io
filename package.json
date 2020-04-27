@@ -26,6 +26,6 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.0"
   }
 }
